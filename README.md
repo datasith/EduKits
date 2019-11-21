@@ -15,4 +15,4 @@ communication, curiosity, problem solving and invention.
 Resources
 =========
 
-In here, you'll find demo code and resources for making sample projects with the Raspberry Pi. For getting started help and tutorials see the [Wiki](https://github.com/acrobotic/EduKits/wiki/)
+In here, you'll find demo code and resources for making sample projects with the Raspberry Pi. For getting started help and tutorials see the [Wiki](https://github.com/acrobotic/EduKits/wiki/).
