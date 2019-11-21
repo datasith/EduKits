@@ -11,3 +11,8 @@ excellen creative medium for advancing teaching and learning. The curricula and
 resources are designed specifically to help today’s students build skills for
 the creative and digital economy — critical thinking, collaboration,
 communication, curiosity, problem solving and invention.
+
+Resources
+=========
+
+In here, you'll find demo code and resources for making sample projects with the Raspberry Pi. For getting started help and tutorials see the [Wiki](https://github.com/acrobotic/EduKits/wiki/)
