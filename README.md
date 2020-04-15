@@ -31,6 +31,7 @@
 
 * [Overview](#overview)
   * [Built With](#built-with)
+  * [List of EduKit Modules](#list-of-edukit-modules)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -93,12 +94,13 @@ The goal is to develop as many modules as possible, each one focused around lear
 
 ...
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES 
 ## Usage
 
-...
+... Top user-submitted cases. Keep a full list in the wiki.
 
-_For more examples, please refer to the [Wiki](https://github.com/acrobotic/EduKits/wiki)_
+For more examples, please refer to the [Wiki](https://github.com/acrobotic/EduKits/wiki)
+-->
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -119,16 +121,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@acrobotic](https://twitter.com/acrobotic) – support@acrobotic.com
-
-Project Link: [https://github.com/acrobotic/EduKits](https://github.com/acrobotic/EduKits)
-
-Support: [https://discord.gg/hbGxaa](https://discord.gg/hbGxaa)
+* Developer: Cisco • A C R O B O T I C 🦿 
+* Contact Info: @[acrobotic](https://twitter.com/acrobotic) (Twitter) • support@acrobotic.com
+* Project Link: [https://github.com/acrobotic/EduKits](https://github.com/acrobotic/EduKits)
+* Support: [https://discord.gg/hbGxaa](https://discord.gg/hbGxaa)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Donkey Car Project](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-
+* **[Donkey Car Project](https://www.webpagefx.com/tools/emoji-cheat-sheet)**
+* **[Raspberry Pi Foundation](https://raspberrypi.org)**
+* **[Python Software Foundation](https://www.python.org/psf/)**
+* **[Jupyter Project](https://jupyter.org/about)**
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
