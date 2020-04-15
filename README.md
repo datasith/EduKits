@@ -1,15 +1,5 @@
 <!--
-*** The goal of these EduKits is to serve as a platform for student engagement.
-*** Based on the Raspberry Pi single-board computer, these kits aim to intrigue
-*** potential learners and spark a curiosity for innovation!
-*** When students are free to invent and create, they begin to see technology as a
-*** set of tools for solving real-world problems, and in the process, they take
-*** their learning to the next level.
-*** The use of programmable electronics as a hands-on learning tool makes for an
-*** excellen creative medium for advancing teaching and learning. The curricula and
-*** resources are designed specifically to help today’s students build skills for
-*** the creative and digital economy — critical thinking, collaboration,
-*** communication, curiosity, problem solving and invention.
+
 *** Resources
 *** =========
 *** In here, you'll find demo code and resources for making sample projects with the Raspberry Pi. For getting started help and tutorials see the [Wiki](https://github.com/acrobotic/EduKits/wiki/).
@@ -19,10 +9,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/acrobotic/EduKits">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/ai_logo_white_bkg.png" alt="Logo" width="100" height="100" />
   </a>
 
-  <h3 align="center">ACROBOTIC EduKits</h3>
+  <h3 align="center">ACROBOTIC EduKit Modules</h3>
 
   <p align="center">
     A series of Educational Modules for experimenting with programming and electronics!
@@ -31,19 +21,15 @@
     <br />
     <br />
     <a href="https://acrobotic.com/EduKits">Get Hardware</a>
-    ·  
-    <a href="https://github.com/acrobotic/EduKits/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/acrobotic/EduKits/issues">Request Feature</a>
+    · <a href="https://github.com/acrobotic/EduKits/issues">Report Bug</a>
+    · <a href="https://github.com/acrobotic/EduKits/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* [Overview](#overview)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -53,35 +39,50 @@
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Overview
+<p align="center">
+  <a href="https://youtube.com/acrobotic/">
+    <img src="images/classroom.jpg" />
+  </a>
+</p>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The goal of the **EduKit Modules** is to serve as a platform for student engagement. Based on the **Raspberry Pi** single-board computer, these kits aim to intrigue potential learners and spark a curiosity for innovation!
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+When students are free to invent and create, they begin to see technology as a set of tools for solving real-world problems, and in the process, they take their learning to the next level.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+The use of programmable electronics as a hands-on learning tool makes for an excellen creative medium for advancing teaching and learning. The curricula and resources are designed specifically to help today’s students build skills for the creative and digital economy — critical thinking, collaboration, communication, curiosity, problem solving and invention.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Raspberry Pi](https://getbootstrap.com)
-* [Python](https://jquery.com)
-* [Jupyter Notebook](https://laravel.com)
+<p align="center">
+  <a href="https://youtube.com/acrobotic/">
+    <img src="images/robocar.jpg" />
+  </a>
+</p>
+The different **EduKit Modules** are built using the fantastic **[Raspberry Pi](https://raspberrypi.org)**, a $35 credit card-sized Single-Board Computer able to:
+
+* Run an **Operating System**, typically Linux
+* Communicate with **Electronic Hardware** such as LEDs, motors, sensors, and many more
+* Rely on community-backed, Open-Source software and hardware to facilitate building fun **DIY Projects**!
+
+Despite specific differences, all **EduKit Modules** are developed using a common set of tools and components. The objective is to have users be able to learn the fundamentals of use once, and easily apply them to different projects—allowing them to focus on learning the subject matters rather than single-use software and hardware tools. These include:
+
+* **[Python Programming Language](https://www.python.org/)**
+* **[Jupyter Notebooks](https://jupyter.org/)**
+* **[DIY Electronics (sensors, interfaces and actuators)](https://acrobotic.com)**
+* **[Web Technologies](https://developer.mozilla.org/en-US/docs/Web)**
+* **[Data Processing and Visualization Tools](https://www.nihlibrary.nih.gov/services/data/data-services-tools)**
+
+### List of EduKit Modules
+The goal is to develop as many modules as possible, each one focused around learning a specific subject matter. So far, they include:
+
+* **[PhysComp: Intro to Physical Computing]()**
+* **[Robocar: Intro to Reinforcement Learning]()**
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
 
 ### Prerequisites
 
@@ -134,4 +135,3 @@ Support: [https://discord.gg/hbGxaa](https://discord.gg/hbGxaa)
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/DSC_0119.JPG
