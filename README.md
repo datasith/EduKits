@@ -33,8 +33,9 @@
   * [Built With](#built-with)
   * [List of EduKit Modules](#list-of-edukit-modules)
 * [Getting Started](#getting-started)
+  * [Module Structure](#module-structure)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  * [Resources](#resources)
 * [Usage](#usage)
 * [License](#license)
 * [Contact](#contact)
@@ -61,7 +62,7 @@ The use of programmable electronics as a hands-on learning tool makes for an exc
   </a>
 </p>
 
-The different **EduKit Modules** are built using the fantastic **[Raspberry Pi](https://raspberrypi.org)**, a $35 credit card-sized Single-Board Computer able to:
+The different **EduKit Modules** are built around the fantastic **[Raspberry Pi](https://raspberrypi.org)**, a $35 credit card-sized Single-Board Computer able to:
 
 * Run an **Operating System**, typically Linux
 * Communicate with **Electronic Hardware** such as LEDs, motors, sensors, and many more
@@ -79,33 +80,65 @@ Despite specific differences, all **EduKit Modules** are developed using a commo
 The goal is to develop as many modules as possible, each one focused around learning a specific subject matter. So far, they include:
 
 * **[PhysComp: Intro to Physical Computing]()**
-* **[Robocar: Intro to Reinforcement Learning]()**
+* **[Robocar: Intro to Machine Learning]()**
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### Module Structure
+
+With ease of use, redistribution, modification, and organization in mind, each **EduKit Module** consists of a few components where all of the materials for each subject can be gathered. These are:
+
+* A **Github repository** in an aptly named sub-directory
+* A **Github wiki** in the Github Wiki
+* A **YouTube playlist** of complimentary tutorial videos in YouTube
+* A **Google Drive directory**
+
+##### Github repository
+
+Here you can find the software and guides for the exercises and demos in each module. It also includes a .pdf version of the instructional presentation for each topic covered in the module. Each repository includes a `README` file with an outline of the contents, and a link to the corresponding wiki page and Google Drive directory.
+
+##### Github wiki
+
+Here you can find an in-depth breakdown of the steps needed to complete the activities and exercises in a module.
 
 
-### Prerequisites
+##### YouTube playlist
 
-...
+A video collection of demos and step-by-step guides for completing the activities in the module.
 
-### Installation
+##### Gogle Drive directory
 
-...
+Here you can find the original source files of the presentation, and any other large-sized files not apt for storing on the module's Github repository.
 
-<!-- USAGE EXAMPLES 
+
+### Pre-requisites
+
+With the goal of the widest adoption possible of these **EduKit Modules**, there are no major pre-requisites for getting started. The module "*PhysComp: Intro to Physical Computing*" is aimed to get anyone familiar with the tools needed.
+
+Whereas becoming an expert programmer, data analyst, electronic hardware engineer, etc., can take several years, the goal of the **EduKit Modules** is to provide a shor-term (20~30 hours) of hands-on exposure to a subject matter. This can be done for fun, vocational learning, or as part of an academic curriculum.
+
+### Resources
+
+Outside of the topics covered in **EduKit Modules** the tools used can be applied for a wide variety of applications. The following resources are useful for those interested in exploring beyond the confines of these modules:
+
+* **[Donkey Car Project](https://www.donkeycar.com/)**
+* **[Raspberry Pi Education](https://www.raspberrypi.org/education/)**
+* **[Instructables](https://instructables.com/)**
+* **[Adafruit Learning Resources](https://learn.aduafruit.com)**
+* **[ACROBOTIC Projects](https://www.youtube.com/playlist?list=PLNFq0T6Z3JPtnqTKEkmqCogIqQYHUmYu8)**
+
+<!-- USAGE EXAMPLES -->
 ## Usage
 
-... Top user-submitted cases. Keep a full list in the wiki.
+These are some examples of use cases of the EduKit modules in the wild:
 
 For more examples, please refer to the [Wiki](https://github.com/acrobotic/EduKits/wiki)
--->
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+A major goal of the EduKits Project is for it to be **crowdsourced**. Improvements to existing modules as well as additions of new ones by members of the community is the way that in which the project will become the most useful for the largest number of people. If you are ready to contribute, please follow these steps:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -116,7 +149,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact

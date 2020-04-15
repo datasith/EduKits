@@ -2,3 +2,5 @@ misc
 *.key
 img
 .*
+*.csv
+data
