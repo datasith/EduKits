@@ -59,6 +59,7 @@ The use of programmable electronics as a hands-on learning tool makes for an exc
     <img src="images/robocar.jpg" />
   </a>
 </p>
+
 The different **EduKit Modules** are built using the fantastic **[Raspberry Pi](https://raspberrypi.org)**, a $35 credit card-sized Single-Board Computer able to:
 
 * Run an **Operating System**, typically Linux
