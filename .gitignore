@@ -4,3 +4,4 @@ img
 .*
 *.csv
 data
+__pycache__
