@@ -1,11 +1,4 @@
-<!--
-
-*** Resources
-*** =========
-*** In here, you'll find demo code and resources for making sample projects with the Raspberry Pi. For getting started help and tutorials see the [Wiki](https://github.com/acrobotic/EduKits/wiki/).
--->
-
-<!-- PROJECT LOGO -->
+<!-- HEADER -->
 <br />
 <p align="center">
   <a href="https://github.com/acrobotic/EduKits">
@@ -21,8 +14,8 @@
     <br />
     <br />
     <a href="https://acrobotic.com/EduKits">Get Hardware</a>
-    · <a href="https://github.com/acrobotic/EduKits/issues">Report Bug</a>
-    · <a href="https://github.com/acrobotic/EduKits/issues">Request Feature</a>
+    · <a href="https://discord.gg/hbGxaa">Join Community</a>
+    · <a href="https://github.com/acrobotic/EduKits/issues">Bugs & Features</a>
   </p>
 </p>
 
@@ -34,7 +27,7 @@
   * [List of EduKit Modules](#list-of-edukit-modules)
 * [Getting Started](#getting-started)
   * [Module Structure](#module-structure)
-  * [Prerequisites](#prerequisites)
+  * [Pre-requisites](#pre-requisites)
   * [Resources](#resources)
 * [Usage](#usage)
 * [License](#license)
@@ -53,7 +46,7 @@ The goal of the **EduKit Modules** is to serve as a platform for student engagem
 
 When students are free to invent and create, they begin to see technology as a set of tools for solving real-world problems, and in the process, they take their learning to the next level.
 
-The use of programmable electronics as a hands-on learning tool makes for an excellen creative medium for advancing teaching and learning. The curricula and resources are designed specifically to help today’s students build skills for the creative and digital economy — critical thinking, collaboration, communication, curiosity, problem solving and invention.
+The use of programmable electronics as a hands-on learning tool makes for an excellent creative medium for advancing teaching and learning. The curricula and resources are designed specifically to help today’s students build skills for the creative and digital economy — critical thinking, collaboration, communication, curiosity, problem solving and invention.
 
 ### Built With
 <p align="center">
@@ -90,8 +83,8 @@ The goal is to develop as many modules as possible, each one focused around lear
 With ease of use, redistribution, modification, and organization in mind, each **EduKit Module** consists of a few components where all of the materials for each subject can be gathered. These are:
 
 * A **Github repository** in an aptly named sub-directory
-* A **Github wiki** in the Github Wiki
-* A **YouTube playlist** of complimentary tutorial videos in YouTube
+* A **User guide** in the Github Wiki
+* A **YouTube playlist** on YouTube
 * A **Google Drive directory**
 
 ##### Github repository
@@ -165,10 +158,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 * **[Raspberry Pi Foundation](https://raspberrypi.org)**
 * **[Python Software Foundation](https://www.python.org/psf/)**
 * **[Jupyter Project](https://jupyter.org/about)**
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
