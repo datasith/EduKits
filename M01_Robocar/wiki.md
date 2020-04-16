@@ -14,7 +14,7 @@ https://diyrobocars.com/
     <br />
     <br />
     <a href="https://acrobotic.com/EduKits">Get Hardware</a>
-    · <a href="https://discord.gg/hbGxaa">Join Community</a>
+    · <a href="https://discord.gg/v3EWWZJ">Join the Community</a>
     · <a href="https://github.com/acrobotic/EduKits/issues">Bugs & Features</a>
   </p>
 </p>
@@ -23,8 +23,11 @@ https://diyrobocars.com/
 ## Table of Contents
 
 * [Overview](#overview)
+  * [Objective](#objective) 
+  * [Resources](#resources)
   * [Pre-requisites](#pre-requisites)
-  * [Parts list](#parts-list)
+  * [Parts List](#parts-list)
+  * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Connecting to your Robocar](#connecting-to-your-robocar)
 * [Usage](#usage)
@@ -57,13 +60,30 @@ As with every **EduKit Module**, there are several resources included:
 
 Although the **[Robocar Kit](https://acrobotic.com/products/Robocar)** comes ready to run out-of-the-box, some familiarity with programming in Python, as well as with network management is recommended. The chapter on **Linux Fundamentals** for the **[Intro to Physical Computing module](https://github.com/acrobotic/EduKits/wiki/M00%E2%80%9300-PhysComp:-Intro-to-Physical-Computing)** is a good place to start for those needing a little more experience.
 
-### Parts list
+### Parts List
 <p align="center">
   <a href="https://youtube.com/acrobotic/">
     <img src="https://github.com/acrobotic/EduKits/blob/master/images/robocar_parts.jpg?raw=true" />
   </a>
 </p>
 
+The **[Robocar Kit](https://acrobotic.com/products/Robocar)** comes pre-assembled, but it is comprised by:
+
+* 2 x DC Motors, wheels, and mounting brackets
+* Caster wheel
+* Laser-cut chassis
+* USB camera
+* Battery meter
+* PCA9685 PWM board
+* L298N motor driver
+* Battery holder
+* Raspberry Pi 3
+* MicroSD card with a pre-flashed custom image of Raspbian
+* HDMI cable
+* USB adapter for MicroSD cards
+* Assembly hardware
+
+The **Robocar Software** is loaded onto the latest image of the [Raspbian Operating System](https://www.raspberrypi.org/downloads/raspbian/), and it's pre-flashed onto the MicroSD card included with the kit.
 
 ### Built With
 
@@ -78,89 +98,60 @@ At the center of this **EduKit Module** we have:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Module Structure
+<!-- Assembly Video -->
 
-With ease of use, redistribution, modification, and organization in mind, each **EduKit Module** consists of a few components where all of the materials for each subject can be gathered. These are:
+The **[Robocar Kit](https://acrobotic.com/products/Robocar)** comes with a pre-flashed image loaded with the latest version of Raspbian, and the **Robocar Software**, which is a fork of the original **[Donkey Car](https://www.donkeycar.com/)** software that's been adapted to run on this specific robotic platform. For those starting from scratch, the first two guides should get them up to speed.
 
-* A **Github repository** in an aptly named sub-directory
-* A **Github wiki** in the Github Wiki
-* A **YouTube playlist** of complimentary tutorial videos in YouTube
-* A **Google Drive directory**
+* Flashing Raspbian to an SD Card (optional):
+<p align="center">
+  <a href="https://youtu.be/ndkM6O9tTm8">
+    <img src="http://img.youtube.com/vi/ndkM6O9tTm8/0.jpg" />
+  </a>
+</p>
+You can also follow the same procedure for flashing the custom version developed for the **Robocar EduKit Module** located on the corresponding [**Google Drive directory**](https://drive.google.com/open?id=14y48VQQDh2FVl9tFWuCMQ13i5h8Ak8fS).
 
-##### Github repository
+* Connecting the Raspberry Pi to Wi-Fi (necessary) and configuring remote access over SSH (optional);
+<p align="center">
+  <a href="https://youtu.be/h3cCHN3MBvs">
+    <img src="http://img.youtube.com/vi/h3cCHN3MBvs/0.jpg" />
+  </a>
+</p>
+**TL;DW**: connect the MicroSD card to the computer and in the partition `boot` create two files named `wpa_supplicant.conf` and `ssh`. The former should contain:
 
-Here you can find the software and guides for the exercises and demos in each module. It also includes a .pdf version of the instructional presentation for each topic covered in the module. Each repository includes a `README` file with an outline of the contents, and a link to the corresponding wiki page and Google Drive directory.
+<!-- ... -->
+    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+    update_config=1
+    country=YOUR_COUNTRY_CODE
 
-##### Github wiki
+    network={
+        scan_ssid=1
+        ssid="YOUR_SSID"
+        psk="YOUR_PASSWORD"
+    }
+Note that there might be issues with **5GHz networks**. The latter file should be empty.
 
-Here you can find an in-depth breakdown of the steps needed to complete the activities and exercises in a module.
-
-
-##### YouTube playlist
-
-A video collection of demos and step-by-step guides for completing the activities in the module.
-
-##### Gogle Drive directory
-
-Here you can find the original source files of the presentation, and any other large-sized files not apt for storing on the module's Github repository.
-
-
-### Pre-requisites
-
-With the goal of the widest adoption possible of these **EduKit Modules**, there are no major pre-requisites for getting started. The module "*PhysComp: Intro to Physical Computing*" is aimed to get anyone familiar with the tools needed.
-
-Whereas becoming an expert programmer, data analyst, electronic hardware engineer, etc., can take several years, the goal of the **EduKit Modules** is to provide a shor-term (20~30 hours) of hands-on exposure to a subject matter. This can be done for fun, vocational learning, or as part of an academic curriculum.
-
-### Resources
-
-Outside of the topics covered in **EduKit Modules** the tools used can be applied for a wide variety of applications. The following resources are useful for those interested in exploring beyond the confines of these modules:
-
-* **[Donkey Car Project](https://www.donkeycar.com/)**
-* **[Raspberry Pi Education](https://www.raspberrypi.org/education/)**
-* **[Instructables](https://instructables.com/)**
-* **[Adafruit Learning Resources](https://learn.aduafruit.com)**
-* **[ACROBOTIC Projects](https://www.youtube.com/playlist?list=PLNFq0T6Z3JPtnqTKEkmqCogIqQYHUmYu8)**
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-These are some examples of use cases of the EduKit modules in the wild:
-
-For more examples, please refer to the [Wiki](https://github.com/acrobotic/EduKits/wiki)
+* Drive your Robocar:
+<p align="center">
+  <a href="https://youtube.com/acrobotic/">
+    <img src="https://github.com/acrobotic/EduKits/blob/master/images/robocar_parts.jpg?raw=true" />
+  </a>
+</p>
+You can now control your car from a web browser at the URL: **http://raspberry-pi-ip-address:8887**
 
 
 
-<!--
 
-Follow the [instructions for installing WebIOPi](https://github.com/acrobotic/Ai_Demos_RPi/tree/master/demos/gpio#webiopi). Run the `setup.sh` script and when prompted to access your Pi from over the Internet, select 'yes'. If you have already installed WebIOPi, run the `./weaved-setup.bin` to install the Weaved IoT Kit and access your device over Internet. You will need to register at [http://developer.weaved.com](http://developer.weaved.com) to access your device.
 
-https://drive.google.com/open?id=14y48VQQDh2FVl9tFWuCMQ13i5h8Ak8fS
 
-## Robotics
 
-### List of Parts
 
-See the spreadsheet for more info about the parts you can use for this application; the main ones are:
 
-1. [Acrobotic Robocar Kit: Mobile Robot Kit with 6V DC MotorsZoom](https://acrobotic.com/kit-00005)
-1. [DRV8835 Dual Motor Driver Kit for Raspberry Pi B+](https://acrobotic.com/rpi-00014)
 
-The Robocar Robotics Kit is a great platform for getting started quickly.  The need for a motor driver is due to the Raspberry Pi not being able to source enough current to drive the motors directly.  We've chosen the DRV8835 Dual Motor Driver Kit for Raspberry Pi B+ as it directly plugs onto the Pi, minimizing the wiring and setup for getting started.
 
-Follow the instructions on the Github repository for getting the motors moving:
-[https://github.com/pololu/drv8835-motor-driver-rpi](https://github.com/pololu/drv8835-motor-driver-rpi)
 
-You'll need a 6V power supply (a 4xAA battery holder is included in the Kit) to power up the motors. The wiring and placement of the driver board on the Pi should look like this:
-![Robocar Robotics Paltform - Wiring](https://github.com/acrobotic/Ai_Demos_RPi/blob/master/images/wiring_markii.jpg)
-![Robocar Robotics Paltform - Wiring](https://github.com/acrobotic/Ai_Demos_RPi/blob/master/images/notes_markii.jpg)
 
-## Kiosk/Multimedia display
 
-Other than a VESA-compatible enclosure, you don't necessarily need hardware parts to get started with a kiosk-type application. Notable examples:
 
-1. [https://github.com/MobilityLab/TransitScreen/wiki/Raspberry-Pi](https://github.com/MobilityLab/TransitScreen/wiki/Raspberry-Pi)
-1. [One way to get started drawing graphics on an external display is using pygame](https://learn.adafruit.com/pi-video-output-using-pygame/overview)
-1. [Tracking the International Space Station (ISS Above)](http://issabove.com)
-1. [Using PyMame for building a 1200-game Vintage Arcade](http://hackaday.io/project/2090-raspberry-pi-vintage-arcade) (DIY Kit at acrobotic.com will be available on March 27th, 2015).
 
--->
+
+

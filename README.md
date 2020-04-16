@@ -14,7 +14,7 @@
     <br />
     <br />
     <a href="https://acrobotic.com/EduKits">Get Hardware</a>
-    · <a href="https://discord.gg/hbGxaa">Join Community</a>
+    · <a href="https://discord.gg/v3EWWZJ">Join the Community</a>
     · <a href="https://github.com/acrobotic/EduKits/issues">Bugs & Features</a>
   </p>
 </p>
@@ -104,7 +104,6 @@ A video collection of demos and step-by-step guides for completing the activitie
 
 Here you can find the original source files of the presentation, and any other large-sized files not apt for storing on the module's Github repository.
 
-
 ### Pre-requisites
 
 With the goal of the widest adoption possible of these **EduKit Modules**, there are no major pre-requisites for getting started. The module "*PhysComp: Intro to Physical Computing*" is aimed to get anyone familiar with the tools needed.
@@ -150,7 +149,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 * Developer: Cisco • A C R O B O T I C 🦿 
 * Contact Info: @[acrobotic](https://twitter.com/acrobotic) (Twitter) • support@acrobotic.com
 * Project Link: [https://github.com/acrobotic/EduKits](https://github.com/acrobotic/EduKits)
-* Support: [https://discord.gg/hbGxaa](https://discord.gg/hbGxaa)
+* Support: [https://discord.gg/v3EWWZJ](https://discord.gg/v3EWWZJ)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
